@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claim Status Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+      }
+
+      th {
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      .btn-add {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto; /* Adjust button alignment */
+        margin-right: auto; /* Adjust button alignment */
+      }
+
+      .btn-add:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Claim Status Dashboard</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Claim ID</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Document Hash</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CLAIM001</td>
+            <td>Health Insurance</td>
+            <td>$1,000</td>
+            <td>Approved</td>
+            <td>
+              0x9e6ef0eeffe898c55973b1b0cce3e136f47d1807a3dbddadcd127a18255f51a1
+            </td>
+          </tr>
+          <tr>
+            <td>CLAIM002</td>
+            <td>House Fire</td>
+            <td>$20,000</td>
+            <td>Rejected</td>
+            <td>
+              0x9e6ef0eeffe898c55973b1b0cce3e136f47d1807a3dbddadcd127as3rB4K3rB4
+            </td>
+          </tr>
+          <tr>
+            <td>CLAIM003</td>
+            <td>Water damage in house</td>
+            <td>$3,000</td>
+            <td>Submitted</td>
+            <td>
+              0x9e6ef0eeffe898c55973b1b0cce3e136f47d1807a3dbddadcd1dL5Y7dL5Y7dL5
+            </td>
+          </tr>
+          <!-- Add more rows for additional claims -->
+        </tbody>
+      </table>
+      <button type="button" class="btn-add" onclick="addRecord()">
+        Add Record
+      </button>
+    </div>
+
+    <script>
+      function addRecord() {
+        // You can add code here to handle adding a new record
+        alert("Add Record functionality will be implemented here.");
+      }
+    </script>
+  </body>
+</html>

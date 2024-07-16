@@ -1,0 +1,23 @@
+[
+  {
+    "claimID": "CLAIM001",
+    "description": "Healt Insurance",
+    "amount": 5000,
+    "status": "Approved",
+    "documentHash": "QmTzQ1zQ1zQ1zQ1zQ1z"
+  },
+  {
+    "claimID": "CLAIM002",
+    "description": "House Fire",
+    "amount": 20000,
+    "status": "Rejected",
+    "documentHash": "QmB4K3rB4K3rB4K3rB4"
+  },
+  {
+    "claimID": "CLAIM003",
+    "description": "Water damage in house",
+    "amount": 3000,
+    "status": "Submitted",
+    "documentHash": "QmL5Y7dL5Y7dL5Y7dL5"
+  }
+]
